@@ -25,6 +25,10 @@ public class Calculator {
         return total;
     }
 
+    public int remainder(int x, int y) {
+        return x % y;
+    }
+
 }
 }
 

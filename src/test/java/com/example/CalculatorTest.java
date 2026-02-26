@@ -40,6 +40,17 @@ class CalculatorTest {
     }
 
     @Test
+    void remainder_evenNumberDivideByTwo_returnsZero() {
+        assertEquals(0, calculator.remainder(42, 2));
+    }
+
+    @Test
+    void remainder_oddNumberDivideByTwo_returnsOne() {
+        assertEquals(1, calculator.remainder(43, 2));
+    }
+}
+
+    @Test
     void average_arrayOfNumbers_returnsAverage() {
         int[] numbers = {2, 4, 6, 8};
         assertEquals(5, calculator.average(numbers));
