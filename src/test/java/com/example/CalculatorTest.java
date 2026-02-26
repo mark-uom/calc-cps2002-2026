@@ -38,4 +38,14 @@ class CalculatorTest {
     void add_bothZero_returnsZero() {
         assertEquals(0, calculator.add(0, 0));
     }
+
+    @Test
+    void remainder_evenNumberDivideByTwo_returnsZero() {
+        assertEquals(0, calculator.remainder(42, 2));
+    }
+
+    @Test
+    void remainder_oddNumberDivideByTwo_returnsOne() {
+        assertEquals(1, calculator.remainder(43, 2));
+    }
 }
