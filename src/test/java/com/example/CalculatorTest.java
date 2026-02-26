@@ -48,10 +48,10 @@ class CalculatorTest {
     void remainder_oddNumberDivideByTwo_returnsOne() {
         assertEquals(1, calculator.remainder(43, 2));
     }
-}
 
     @Test
     void average_arrayOfNumbers_returnsAverage() {
         int[] numbers = {2, 4, 6, 8};
         assertEquals(5, calculator.average(numbers));
     }
+}
