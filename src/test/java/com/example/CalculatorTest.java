@@ -16,7 +16,7 @@ class CalculatorTest {
 
     @Test
     void add_twoPositiveNumbers_returnsSum() {
-        assertEquals(4, calculator.add(2, 3));
+        assertEquals(5, calculator.add(2, 3));
     }
 
     @Test
