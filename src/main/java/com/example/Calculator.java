@@ -1,5 +1,7 @@
 package com.example;
 
+import java.util.Arrays;
+
 public class Calculator {
 
     public int add(int x, int y) {
@@ -13,6 +15,16 @@ public class Calculator {
         }
 
         return total / numbers.length;
+    public int times(int[] values) {
+        int total = 1;
+
+        for (int value : values) {
+            total *= value;
+        }
+
+        return total;
     }
 
 }
+}
+
