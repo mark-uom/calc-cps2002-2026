@@ -38,4 +38,9 @@ class CalculatorTest {
     void add_bothZero_returnsZero() {
         assertEquals(0, calculator.add(0, 0));
     }
-}
+
+    @Test
+    void average_arrayOfNumbers_returnsAverage() {
+        int[] numbers = {2, 4, 6, 8};
+        assertEquals(5, calculator.average(numbers));
+    }
